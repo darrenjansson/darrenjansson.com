@@ -21,7 +21,7 @@
   {:else if subtitle}
   <h2 class="c-work__subtitle">{subtitle}</h2>
   {/if}
-  {@render children()}
+  {@render children?.()}
 </article>
 
 <style lang="scss">

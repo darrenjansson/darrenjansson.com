@@ -13,7 +13,7 @@
 
 <Header />
 <main class="c-main">
-  {@render children()}
+  {@render children?.()}
 </main>
 <Footer />
 

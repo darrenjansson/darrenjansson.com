@@ -9,7 +9,7 @@
 >
   <div class="c-section__inner">
     {#if title}<h1 class="c-section__title">{title}</h1>{/if}
-    {@render children()}
+    {@render children?.()}
   </div>
 </section>
 

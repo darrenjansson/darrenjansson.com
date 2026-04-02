@@ -4,7 +4,7 @@
 </script>
 
 <a class="c-link {klass || ''}" {href} bind:this={link} {...restProps} {onclick}>
-  <span class="c-link__text">{@render children()}</span>
+  <span class="c-link__text">{@render children?.()}</span>
   <span class="c-link__effect" style="background-image: linear-gradient({Math.floor(Math.random() * 359) + 1}deg, var(--color-orange), var(--color-pink), var(--color-purple), var(--color-blue));"></span>
 </a>
 
