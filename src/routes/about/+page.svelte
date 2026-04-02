@@ -35,7 +35,7 @@
 </Section> 
 
 <script>
-  import Section from '../components/section.svelte';
+  import Section from '../../components/section.svelte';
 </script>
 
 <style lang="scss">

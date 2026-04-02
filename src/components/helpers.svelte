@@ -1,6 +1,6 @@
-<script context="module">
+<script module>
   const numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-  
+
   export const closeNav = () => {
     document.querySelector('body').classList.remove('nav-open');
   }

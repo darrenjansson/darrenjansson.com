@@ -1,6 +1,19 @@
+<script>
+  import Header from '../components/header.svelte';
+  import Footer from '../components/footer.svelte';
+
+  import { onMount } from 'svelte';
+
+  let { children } = $props();
+
+  onMount(() => {
+    document.querySelector('body').classList.add('has-js');
+  });
+</script>
+
 <Header />
 <main class="c-main">
-  <slot></slot>
+  {@render children()}
 </main>
 <Footer />
 
@@ -14,17 +27,6 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://www.darrenjansson.com/images/social-share.png">
 </svelte:head>
-
-<script>
-  import Header from '../components/header.svelte';
-  import Footer from '../components/footer.svelte';
-
-  import { onMount } from 'svelte';
-
-  onMount(() => {    
-    document.querySelector('body').classList.add('has-js');
-  });
-</script>
 
 <style lang="scss">
   :root {
@@ -71,7 +73,7 @@
     @media (min-width: 48em) {
       font-size: 1.25rem;
     }
-  } 
+  }
 
   :global(body) {
     background-color: var(--color-grey-dark);

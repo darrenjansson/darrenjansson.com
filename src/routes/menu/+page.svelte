@@ -8,7 +8,6 @@
 </Section>
 
 <script>
-  import Link from '../components/link.svelte'; 
-  import Nav from '../components/nav.svelte';
-  import Section from '../components/section.svelte';
+  import Nav from '../../components/nav.svelte';
+  import Section from '../../components/section.svelte';
 </script>

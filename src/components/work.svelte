@@ -1,3 +1,13 @@
+<script>
+  import Link from '../components/link.svelte';
+
+  let { color, link = undefined, logo, logoHeight, logoWidth, logoSpacingX, logoSpacingY, subtitle = undefined, title, children } = $props();
+
+  let pos = $state(0);
+</script>
+
+<svelte:window bind:scrollY={pos} />
+
 <article class="c-work">
   <div class="c-work__article" style="background-color: {color}">
     <div class="c-work__logo-bg" style="background: url('{logo}') -{pos}px calc(50% - {Math.round(logoHeight / 2)}px), url('{logo}') {pos + Math.round((logoWidth + logoSpacingX) / 2)}px calc(50% - {Math.round(logoHeight / 2)}px + {Math.round((logoHeight + logoSpacingY) / 2)}px);"></div>
@@ -6,24 +16,13 @@
   <h1 class="c-work__title">{title}</h1>
   {#if subtitle && link}
   <h2 class="c-work__subtitle">
-    <Link class="c-work__link" href="{link}">{subtitle}</Link>
+    <Link class="c-work__link" href={link}>{subtitle}</Link>
   </h2>
   {:else if subtitle}
   <h2 class="c-work__subtitle">{subtitle}</h2>
   {/if}
-  <slot></slot> 
+  {@render children()}
 </article>
-
-<script>
-  import { onMount } from 'svelte';
-  import Link from '../components/link.svelte';
-
-  export let color, link = undefined, logo, logoHeight, logoWidth, logoSpacingX, logoSpacingY, subtitle = undefined, title
-
-  let pos = 0;
-</script>
-
-<svelte:window bind:scrollY={pos} />
 
 <style lang="scss">
   :global(.c-work) {

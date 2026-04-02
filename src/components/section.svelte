@@ -1,17 +1,17 @@
-<section 
-  class="c-section {color ? `c-section--${color}` : ''}" 
-  class:c-section--stretch="{stretch}"
-  class:c-section--top="{top}"
+<script>
+  let { color = undefined, title = undefined, top = false, stretch = false, children } = $props();
+</script>
+
+<section
+  class="c-section {color ? `c-section--${color}` : ''}"
+  class:c-section--stretch={stretch}
+  class:c-section--top={top}
 >
   <div class="c-section__inner">
     {#if title}<h1 class="c-section__title">{title}</h1>{/if}
-    <slot></slot>
+    {@render children()}
   </div>
 </section>
-
-<script>
-  export let color = undefined, title = undefined, top = false, stretch = false;
-</script>
 
 <style lang="scss">
   .c-section {
@@ -32,7 +32,7 @@
       position: absolute;
       top: -5vh;
       width: 100%;
-    } 
+    }
   }
 
   .c-section--blue {
@@ -94,7 +94,7 @@
   }
 
   .c-section--stretch {
-    flex-grow: 1; 
+    flex-grow: 1;
   }
 
     .c-section__title {
@@ -103,7 +103,7 @@
       line-height: 1.25;
       margin-top: 1.5em;
     }
-  
+
     .c-section__inner {
       box-sizing: border-box;
       margin-bottom: 3.5rem;

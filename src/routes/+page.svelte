@@ -31,8 +31,7 @@
   import Masthead from '../components/masthead.svelte';
   import Section from '../components/section.svelte';
   import Work from '../components/work.svelte';
-  
-  import { getYears } from '../components/helpers.svelte';
+
 </script>
 
 <style lang="scss">

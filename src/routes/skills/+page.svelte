@@ -20,8 +20,8 @@
 </Section> 
 
 <script>
-  import Lists from '../components/lists.svelte';
-  import Section from '../components/section.svelte';
+  import Lists from '../../components/lists.svelte';
+  import Section from '../../components/section.svelte';
 </script>
 
 <style lang="scss">

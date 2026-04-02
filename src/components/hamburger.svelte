@@ -1,4 +1,8 @@
-<div class="hamburger" on:click={toggleNav}>
+<script>
+  import { toggleNav } from './helpers.svelte';
+</script>
+
+<div class="hamburger" onclick={toggleNav} role="button" tabindex="0" onkeydown={(e) => e.key === 'Enter' && toggleNav()}>
   <a class="hamburger__link" href="/menu">Menu</a>
   <div class="hamburger__icon">
     <div class="hamburger__line hamburger__line--1"></div>
@@ -6,10 +10,6 @@
     <div class="hamburger__line hamburger__line--3"></div>
   </div>
 </div>
-
-<script>
-  import { toggleNav } from './helpers.svelte';
-</script>
 
 <style lang="scss">
   @use 'sass:math';
@@ -31,12 +31,12 @@
     position: relative;
     transition: opacity 0.25s;
     width: var(--size-hamburger-button);
-    
+
     &:hover {
       opacity: 0.5;
     }
   }
-    
+
     .hamburger__icon {
       height: var(--size-hamburger-height);
       left: 50%;
@@ -55,7 +55,7 @@
       position: absolute;
       width: 100%;
     }
-    
+
     .hamburger__line--1 {
       top: 0;
       transition: transform .3s ease-in-out, top .2s ease-in-out .3s;
@@ -81,7 +81,7 @@
         }
       }
     }
-    
+
     .hamburger__line--2 {
       bottom: 0;
       margin: auto;
@@ -93,7 +93,7 @@
         transition: opacity .0s ease-in-out .3s;
       }
     }
-    
+
     .hamburger__line--3 {
       bottom: 0;
       transition: opacity .0s ease-in-out .3s, bottom .2s ease-in-out .3s;

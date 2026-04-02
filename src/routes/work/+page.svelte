@@ -44,9 +44,7 @@
 </Section>
 
 <script>
-  import Link from '../components/link.svelte';
-  import Section from '../components/section.svelte';
-  import Work from '../components/work.svelte';
-
-  import { getYears } from '../components/helpers.svelte';
+  import Link from '../../components/link.svelte';
+  import Section from '../../components/section.svelte';
+  import Work from '../../components/work.svelte';
 </script>

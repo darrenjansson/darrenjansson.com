@@ -1,23 +1,22 @@
-<nav 
-  class="c-nav"
-  class:has-animation={animate}
->
-  <ul class="c-nav__list">
-    <li class="c-nav__list-item"><Link class="c-nav__link" on:click={closeNav} href="/about">About</Link></li>
-    <li class="c-nav__list-item"><Link class="c-nav__link" on:click={closeNav} href="/skills">Skills</Link></li>
-    <li class="c-nav__list-item"><Link class="c-nav__link" on:click={closeNav} href="/work">Work</Link></li>
-    <li class="c-nav__list-item"><Link class="c-nav__link" on:click={closeNav} href="/contact">Contact</Link></li>
-  </ul>
-</nav>
-
 <script>
-  import Hamburger from './hamburger.svelte';
   import Link from './link.svelte';
 
   import { closeNav } from './helpers.svelte';
 
-  export let animate = false;
+  let { animate = false } = $props();
 </script>
+
+<nav
+  class="c-nav"
+  class:has-animation={animate}
+>
+  <ul class="c-nav__list">
+    <li class="c-nav__list-item"><Link class="c-nav__link" onclick={closeNav} href="/about">About</Link></li>
+    <li class="c-nav__list-item"><Link class="c-nav__link" onclick={closeNav} href="/skills">Skills</Link></li>
+    <li class="c-nav__list-item"><Link class="c-nav__link" onclick={closeNav} href="/work">Work</Link></li>
+    <li class="c-nav__list-item"><Link class="c-nav__link" onclick={closeNav} href="/contact">Contact</Link></li>
+  </ul>
+</nav>
 
 <style lang="scss">
   .c-nav {
