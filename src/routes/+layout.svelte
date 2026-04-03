@@ -38,6 +38,8 @@
     --color-pink: #ff3366;
     --color-purple: #6633ff;
     --color-blue: #3366ff;
+    --color-teal: #33ccaa;
+    --color-green: #33aa88;
     --color-white: #fff;
 
     --font-stack: 'Open Sans', sans-serif;

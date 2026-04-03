@@ -5,10 +5,14 @@
 
 <Section title="Work" top={true} color="pink">
   <p>I&rsquo;ve been fortunate enough to work on some really amazing projects, with great agencies and clients. I&rsquo;ve listed a selection of some of them below.  </p>
+  <p>If you'd like more detail or information on any of the work I've done then please <Link href="/contact">get in touch</Link>.</p>
 </Section> 
 <Section color="black">
-  <Work title="Cinch" color="#8C32BE" logo="/images/logo-bg-cinch.svg" logoWidth={75} logoHeight={27} logoSpacingX={20} logoSpacingY={40}>
-    <p>I&rsquo;m currently a Senior Engineer at Cinch. I've been working on our new greenfield design system, working with the team on the strategic and technical planning of creating and integrating a new design system into an existing codebase.</p>
+  <Work title="Typeset" link="https://www.samcart.com/typeset" subtitle="Content creation platform" color="#ff0074" logo="/images/logo-bg-typeset.svg" logoWidth={115} logoHeight={29.3} logoSpacingX={20} logoSpacingY={50}>
+    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typesset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
+  </Work>
+  <Work title="Cinch" link="https://www.cinch.co.uk/" subtitle="Vehicle retail site" color="#8C32BE" logo="/images/logo-bg-cinch.svg" logoWidth={75} logoHeight={27} logoSpacingX={20} logoSpacingY={40}>
+    <p>I was previously a Senior Engineer at Cinch. I've been working on our new greenfield design system, working with the team on the strategic and technical planning of creating and integrating a new design system into an existing codebase.</p>
   </Work>
   <Work title="Auto Trader" link="https://www.autotrader.co.uk/cars/new" subtitle="Vehicle retail site" color="#222b5e" logo="/images/logo-bg-autotrader.svg" logoWidth={156} logoHeight={20} logoSpacingX={20} logoSpacingY={40}>
     <p>Senior Frontend Developer, working mainly with a Storybook design system, porting exiting pages over to the new system and creating new pages for marketing campaigns.</p>

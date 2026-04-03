@@ -4,7 +4,7 @@
 </svelte:head>
 
 <Section title="About" top={true} color="blue">
-  <p>I&rsquo;m Darren Jansson <span class="u-trans">(he/him)</span>, a senior frontend developer and engineer based in the UK. I&rsquo;ve been working both in-house and remotely for over {new Date().getFullYear() - 2004} years now, creating apps and websites for clients all over the world.</p>
+  <p>I&rsquo;m Darren Jansson, a staff frontend developer and engineer based in the UK. I&rsquo;ve been working both in-house and remotely for over {new Date().getFullYear() - 2004} years now, creating apps and websites for clients all over the world.</p>
   <p>I love problem solving and learning new things, which has led to me being supremely adaptable as a developer. I enjoy variety in what I do and working with people across all disciplines. </p>
   <p>I&rsquo;ve found it very rewarding mentoring apprentices recently, and I have a passion for helping the community. I&rsquo;ve attended many conferences, spoken at meetups and even organised a not for profit workshop with Harry Roberts, bringing together students and professionals for a day of learning.</p>
   <p>Outside of work I can often be found in the gym and I&rsquo;m into all the usual generic social interactions. During lockdown I renewed my love of glass blowing, something I&rsquo;ve not done since I was at uni. It&rsquo;s been great doing something creative and practical, plus who doesn&rsquo;t want to play with molten glass.</p>
