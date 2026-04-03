@@ -21,7 +21,7 @@ export const work = [
     logoHeight: 27,
     logoSpacingX: 20,
     logoSpacingY: 40,
-    description: "I was previously a Senior Engineer at Cinch. I've been working on our new greenfield design system, working with the team on the strategic and technical planning of creating and integrating a new design system into an existing codebase."
+    description: "I was previously a Senior Engineer at Cinch. I\u2019ve been working on our new greenfield design system, working with the team on the strategic and technical planning of creating and integrating a new design system into an existing codebase."
   },
   {
     title: 'Auto Trader',
@@ -33,7 +33,7 @@ export const work = [
     logoHeight: 20,
     logoSpacingX: 20,
     logoSpacingY: 40,
-    description: 'Senior Frontend Developer, working mainly with a Storybook design system, porting exiting pages over to the new system and creating new pages for marketing campaigns.'
+    description: 'Senior Frontend Developer, working mainly with a Storybook design system, porting existing pages over to the new system and creating new pages for marketing campaigns.'
   },
   {
     title: 'Co-op Shifts',
@@ -55,7 +55,7 @@ export const work = [
     logoHeight: 20,
     logoSpacingX: 20,
     logoSpacingY: 50,
-    description: "Working with the in-house team on a bespoke Node.js application, allowing the modular construction of insurance application sites by less experienced team members. Used for clients such as Sainsbury's, Swinton and Tesco. Test-driven development."
+    description: "Working with the in-house team on a bespoke Node.js application, allowing the modular construction of insurance application sites by less experienced team members. Used for clients such as Sainsbury\u2019s, Swinton and Tesco. Test-driven development."
   },
   {
     title: 'Channel Mum',
@@ -66,7 +66,7 @@ export const work = [
     logoHeight: 34.84,
     logoSpacingX: 20,
     logoSpacingY: 60,
-    description: 'Lead frontend developer for React application, front end process (including test-driven development), architecture and development. Utilises Redux, Algolia and Contenful API.'
+    description: 'Lead frontend developer for React application, front end process (including test-driven development), architecture and development. Utilises Redux, Algolia and Contentful API.'
   },
   {
     title: 'Go Euro (now Omio)',
