@@ -7,7 +7,7 @@
 
 <Section title="I&rsquo;m a frontend engineer based in the UK.">
     <p>With over {new Date().getFullYear() - 2004} years of commercial experience I develop responsive, performant and accessible websites using HTML, CSS and JavaScript.</p>
-    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typesset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
+    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typeset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
     <p><Link class="c-link--home" href="/about">More about</Link></p>
 </Section>
 
@@ -20,7 +20,7 @@
 
 <Section title="Recent work" color="pink">
    <Work title="Typeset" link="https://www.samcart.com/typeset" subtitle="Content creation platform" color="#ff0074" logo="/images/logo-bg-typeset.svg" logoWidth={156} logoHeight={37} logoSpacingX={20} logoSpacingY={40}>
-    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typesset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
+    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typeset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
   </Work>
   <p><Link class="c-link--home" href="/work">More work</Link></p>
 </Section>

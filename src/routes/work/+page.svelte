@@ -9,7 +9,7 @@
 </Section> 
 <Section color="black">
   <Work title="Typeset" link="https://www.samcart.com/typeset" subtitle="Content creation platform" color="#ff0074" logo="/images/logo-bg-typeset.svg" logoWidth={115} logoHeight={29.3} logoSpacingX={20} logoSpacingY={50}>
-    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typesset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
+    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typeset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
   </Work>
   <Work title="Cinch" link="https://www.cinch.co.uk/" subtitle="Vehicle retail site" color="#8C32BE" logo="/images/logo-bg-cinch.svg" logoWidth={75} logoHeight={27} logoSpacingX={20} logoSpacingY={40}>
     <p>I was previously a Senior Engineer at Cinch. I've been working on our new greenfield design system, working with the team on the strategic and technical planning of creating and integrating a new design system into an existing codebase.</p>
