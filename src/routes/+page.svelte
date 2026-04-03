@@ -19,8 +19,8 @@
 </Section>
 
 <Section title="Recent work" color="pink">
-   <Work title="Typeset" link="https://www.samcart.com/typeset" subtitle="Content creation platform" color="#ff0074" logo="/images/logo-bg-typeset.svg" logoWidth={156} logoHeight={37} logoSpacingX={20} logoSpacingY={40}>
-    <p>I am currently a Staff Engineer at SamCart, working exclusively on Typeset, an AI-powered design and content creation platform for building slide decks, eBooks, social media content, and more.</p>
+  <Work title={latest.title} link={latest.link} subtitle={latest.subtitle} color={latest.color} logo={latest.logo} logoWidth={latest.logoWidth} logoHeight={latest.logoHeight} logoSpacingX={latest.logoSpacingX} logoSpacingY={latest.logoSpacingY}>
+    <p>{latest.description}</p>
   </Work>
   <p><Link class="c-link--home" href="/work">More work</Link></p>
 </Section>
@@ -31,6 +31,9 @@
   import Masthead from '../components/masthead.svelte';
   import Section from '../components/section.svelte';
   import Work from '../components/work.svelte';
+  import { work } from '$lib/work.js';
+
+  const latest = work[0];
 
 </script>
 
