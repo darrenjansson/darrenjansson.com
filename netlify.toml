@@ -1,10 +1,6 @@
 [build]
-  command = "npm run build && cp _headers build/_headers && mv build/404/index.html build/404.html && rm -r build/404"
+  command = "npm run build && cp _headers build/_headers"
   publish = "build"
- 
+
 [dev]
- command = "svelte-kit dev"
- 
-[functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"
+  command = "npm run dev"
