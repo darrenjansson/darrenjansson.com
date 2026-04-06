@@ -5,7 +5,7 @@
 
 <Section title="Work" top={true} color="pink">
   <p>I&rsquo;ve been fortunate enough to work on some really amazing projects, with great agencies and clients. I&rsquo;ve listed a selection of some of them below.  </p>
-  <p>If you'd like more detail or information on any of the work I've done then please <Link href="/contact">get in touch</Link>.</p>
+  <p>If you&rsquo;d like more detail or information on any of the work I&rsquo;ve done then please <Link href="/contact">get in touch</Link>.</p>
 </Section> 
 <Section color="black">
   {#each work as item}

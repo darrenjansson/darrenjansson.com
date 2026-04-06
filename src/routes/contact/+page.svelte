@@ -70,7 +70,7 @@
 </svelte:head>
 
 <Section title="Contact" top={true} color="white">
-  <p>I'm not actively looking for new opportunities at the moment, but please feel free to get in touch if you would like to work with me. You can <Link href="mailto:darren@darrenjansson.com">email</Link> me or use the contact form below. </p>
+  <p>I&rsquo;m actively looking for new opportunities at the moment, so please feel free to get in touch if you would like to work with me. You can <Link href="mailto:darren@darrenjansson.com">email</Link> me or use the contact form below. </p>
   <form class="c-contact__form" method="post" name="Contact" onsubmit={submitContactForm} action="/contact/success">
     <div class="c-contact__field">
       <label class="c-contact__label" for="name">Name <span class="c-contact__error" bind:this={fields.name.errorRequired} hidden>is required</span></label>
